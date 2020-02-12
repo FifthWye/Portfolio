@@ -1,0 +1,72 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  margin-top: 4rem;
+}
+
+section > h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.work {
+  min-height: 10rem;
+  margin-bottom: 3rem;
+}
+
+.work-img {
+  background-position: top;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.25rem;
+}
+
+.icon-travel {
+  background-image: url("/img/screencapture-icon-travel.png");
+}
+
+.artworks-shop {
+  background-image: url("/img/screencapture-localhost-3000.png");
+}
+
+.sh24 {
+  background-image: url("/img/screencapture-fifthwye-github-io-sh24-site.png");
+}
+
+.acp {
+  background-image: url("/img/auto-contests-participate.png");
+}
+
+.modal-dialog {
+  height: 100%;
+  width: 80%;
+  margin: auto;
+}
+
+.modal-dialog > img {
+  margin: auto;
+  display: block;
+  width: 80% !important;
+  height: auto !important;
+}
+
+#pop {
+  cursor: pointer;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 100%;
+  }
+}

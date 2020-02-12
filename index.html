@@ -1,0 +1,186 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <section>
+      <h2>My works</h2>
+      <div class="container">
+        <div class="row work">
+          <div class="col-4">
+            <div id="pop" class="work-img shadow-lg icon-travel"></div>
+          </div>
+          <div class="col-8">
+            <p>
+              This website was created for travel agency Icon Travel in Ukraine,
+              Odessa. The main goal of this app is to collect contact data of
+              potential customers to SQL database and deliver information about
+              avalible special offers.
+              <span class="badge badge-pill badge-dark"
+                >First commit: Feb 24, 2019</span
+              >
+            </p>
+            <ul class="list-group list-group-horizontal">
+              <li class="list-group-item">
+                <a
+                  href="https://github.com/FifthWye/icon.travel"
+                  target="_blank"
+                  ><i class="fab fa-github"></i>
+                  github.com/FifthWye/icon.travel</a
+                >
+              </li>
+              <li class="list-group-item">
+                <a href="https://icon.travel/" target="_blank"
+                  ><i class="fas fa-link"></i> icon.travel</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row work">
+          <div class="col-4">
+            <div id="pop" class="work-img shadow-lg artworks-shop"></div>
+          </div>
+          <div class="col-8">
+            <p>
+              This project was abandoned by customer because of some personal
+              problems. That's why it's not finished. But the main goal of it
+              was to create a server side rendering web store. With admin panel.
+              In this project I was responsible for front end only, but since I
+              had express.js in university and I was working with moongoDB I do
+              know how every single row of code works.
+              <span class="badge badge-pill badge-dark"
+                >First commit: 27 Jul 2019</span
+              >
+            </p>
+            <ul class="list-group list-group-horizontal">
+              <li class="list-group-item">
+                <a
+                  href="https://github.com/Owleroid/Artworks-shop"
+                  target="_blank"
+                  ><i class="fab fa-github"></i>
+                  github.com/Owleroid/Artworks-shop</a
+                >
+              </li>
+              <li class="list-group-item">
+                <a
+                  href="https://www.figma.com/file/epD1OhzXWJU2DNZrDsxdU3I6/Untitled?node-id=0%3A1"
+                  target="_blank"
+                  ><i class="fab fa-figma"></i> Figma UI</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row work">
+          <div class="col-4">
+            <div id="pop" class="work-img shadow-lg acp"></div>
+          </div>
+          <div class="col-8">
+            <p>
+              This application was written for free publish. The idea of app is
+              to automate participation in free contests. It works using
+              electron and puppeteer. Auto updating of app works with github
+              releases. App has it's own actions log ( it's just non-editable
+              text area where I rewrite value) so that's why, mostly, there is
+              no need in comments, because after every app action I send
+              explanation of it to preload proccess which adds new row to
+              textarea value.
+              <span class="badge badge-pill badge-dark"
+                >First commit: 18 Jul 2019</span
+              >
+            </p>
+            <ul class="list-group list-group-horizontal">
+              <li
+                class="list-group-item"
+                style="border-bottom-left-radius:0.25rem"
+              >
+                <a
+                  href="https://github.com/FifthWye/auto-contests-participate"
+                  target="_blank"
+                  ><i class="fab fa-github"></i>
+                  github.com/FifthWye/auto-contests-participate</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row work">
+          <div class="col-4">
+            <div id="pop" class="work-img shadow-lg sh24"></div>
+          </div>
+          <div class="col-8">
+            <p>
+              Simple landing page for stamping company which sends
+              XMLHttpRequest() on form submission and sends data to google sheet
+              with google script which sends email to inform admin about new
+              call back request from customer.
+              <span class="badge badge-pill badge-dark"
+                >First commit: 4 Aug 2018</span
+              >
+            </p>
+            <ul class="list-group list-group-horizontal">
+              <li class="list-group-item">
+                <a href="https://github.com/FifthWye/sh24.site" target="_blank"
+                  ><i class="fab fa-github"></i>
+                  github.com/FifthWye/sh24.site</a
+                >
+              </li>
+              <li class="list-group-item">
+                <a href="https://fifthwye.github.io/sh24.site/" target="_blank"
+                  ><i class="fas fa-link"></i> GitHub Pages</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="modal fade"
+      id="imagemodal"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <button type="button" class="close text-white">
+          <span aria-hidden="true">&times;</span>
+        </button>
+
+        <img src="" id="imagepreview" style="width: 400px; height: 264px;" />
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/35ce649582.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="main.js"></script>
+  </body>
+  <footer></footer>
+</html>
