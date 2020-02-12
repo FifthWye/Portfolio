@@ -27,6 +27,7 @@ section > h2, section > h6 {
 .work-img {
   background-position: top;
   height: 100%;
+  max-height: 15rem;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0.25rem;
